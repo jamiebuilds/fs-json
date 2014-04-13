@@ -1,0 +1,22 @@
+{
+  "name": "fs-json",
+  "version": "0.0.0",
+  "description": "node file system operations for json files",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/thejameskyle/fs-json.git"
+  },
+  "author": "James Kyle <me@thejameskyle.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/thejameskyle/fs-json/issues"
+  },
+  "homepage": "https://github.com/thejameskyle/fs-json",
+  "dependencies": {
+    "detect-indent": "^0.1.3"
+  }
+}

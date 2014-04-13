@@ -1,0 +1,12 @@
+{
+  "foo": 1,
+  "bar": "hello world",
+  "baz": {
+    "tah": "dah"
+  },
+  "meh": [
+    0,
+    1,
+    2
+  ]
+}

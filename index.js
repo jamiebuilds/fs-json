@@ -14,7 +14,7 @@ jsonFs.readFile = function () {
 
   args[args.length - 1] = function (err, data) {
     if (err) return callback(err);
-    data = JSON.parse(data);
+    data = JSON.parse(data.toString());
     callback(null, data);
   };
 
@@ -23,7 +23,7 @@ jsonFs.readFile = function () {
 
 jsonFs.readFileSync = function () {
   var data = fs.readFileSync.apply(fs, arguments);
-  return JSON.parse(data);
+  return JSON.parse(data.toString());
 };
 
 jsonFs.writeFile = function () {
